@@ -11,9 +11,9 @@
     <div class="col-2 bg-dark">
         <nav class="nav nav-pills nav-fill flex-column">
             <div class="row">
-            <div class="col-4">
+            <div class="col-4 bg-dark">
             <div class="card mt-4 ms-4" style="width: 2rem; height: 2rem">
-                <div class="card-body pt-0 pb-0 ps-2 pe-0">
+                <div class="card-body  pt-0 pb-0 ps-2 pe-0">
                     <h4>B</h4>
                 </div>
             </div>
@@ -21,14 +21,26 @@
             <div class="col-8 justify-content-center ps-0">
                 <h4 class="text-light mt-4">Меню</h4>
             </div>
-            <a class="nav-link" href="#">Главная</a>
-            <a class="nav-link" href="#">Категории</a>
-            <a class="nav-link" href="#">Заказы</a>
-            <a class="nav-link" href="#">Контакты</a>
-                
-            </div>
+            <a class="nav-link mt-4 ms-4" href="#">Главная</a>
+            <a class="nav-link mt-4 ms-4" href="#">Категории</a>
+            <a class="nav-link mt-4 ms-4" href="#">Заказы</a>
+            <a class="nav-link mt-4 ms-4" href="#">Контакты</a>
 
+            <div class="dropdown  m-5 ">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Пользователь
+            </button>
+            <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Профиль</a></li>
+            <li><a class="dropdown-item" href="#">Выход</a></li>
+            </ul>
+            </div>
+            </div>
         </nav>
+
+
+
+
     </div>
     <div class="col-10">
         <div class="mx-auto m-5" style="width: 100px;">
@@ -81,5 +93,7 @@
 
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+</script>
 </body>
 </html>
